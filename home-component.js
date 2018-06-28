@@ -2,11 +2,16 @@
 
 const homeComponent ={
     template: `
-    <header class="container">
-    <p class="inital">C</p>
-    <img class="image" src="images/forest.jpg" alt="nature">
-    </section>
-    <header>
+    <section class="header">
+    <div class="initial>
+        <div class="initialbox>
+        <h1>C</h1>
+        </div>
+    </div>
+    <h1 class="main-title">Charity A. Cardinal</h1>
+    <h4 class="tagline">Front-End Web Developer</h4>
+    <section>
+
     <nav class="home-header">
     <a href="#!/home-component">About Me</a>
     <a href="#!/project-component">Projects</a>
@@ -15,10 +20,6 @@ const homeComponent ={
     <a href="https://github.com/charcard">GitHub</a>
     </nav>
 
-    <div class="name">
-    <h1>Charity A. Cardinal</h1>
-    <h3>Front-End Web Developer</h3>
-    </div>
     <section class="intro">
       <p>Welcome!  I'm Charity.  I recently graduated from 
       the Front-End Web Development Bootcamp at Grand Circus in Detroit. 

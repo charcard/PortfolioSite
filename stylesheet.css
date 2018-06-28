@@ -7,7 +7,7 @@
     background-color: #f4f4f4;
     font-family: 'PT Mono', monospace;
   }
-  .home-header{
+  /* .home-header{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,17 +28,39 @@
   .image {
     object-fit: contain;
     z-index: 1;
-  }
+  } */
+  .header {
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    position: relative;
+    background-image: url("images/forest.jpg");
+    text-align: center;
+}
   .initial {
-    display: flex;
     position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
     z-index: 2;
-    border: 1px solid linen;
-    color: rgb(114, 10, 10);
+    position: absolute;
+    border: 1px solid #f8f8f8;
+    padding: 5px 20px;
   }
+  /* .initial .box {
+    position: absolute;
+    border: 1px solid #f8f8f8;
+    padding: 5px 20px;
+} */
 
   h1 {
     color: rgb(114, 10, 10);
+    display: block;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 36px;
+    margin: 20px 0;
   }
   .resume {
     display: flex;
@@ -129,7 +151,7 @@
   }
   @media only screen and (min-width: 768px){
 
-    .image {
+    /* .image {
       width: 100%;
     }
   
@@ -137,16 +159,16 @@
       margin-left: -30px;
       width: 93px;
       height: 90px;
-    }
+    } */
 
     @media only screen and (min-width: 900px){
-        .logo{
+        /* .logo{
           margin-left: -75px;
         }
       
         .image {
           height: 50%;
         }
-      
+       */
     }
 }
