@@ -3,6 +3,43 @@
     margin: 0;
     padding: 0;
   }
+  body {
+    background-color: #f4f4f4;
+    font-family: 'PT Mono', monospace;
+  }
+  .home-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    padding: 12px;
+    width: 100%;
+  }
+  .container {
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .image {
+    object-fit: contain;
+    z-index: 1;
+  }
+  .initial {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    border: 1px solid linen;
+    color: rgb(114, 10, 10);
+  }
+
+  h1 {
+    color: rgb(114, 10, 10);
+  }
   .resume {
     display: flex;
     justify-content: center;
@@ -90,3 +127,26 @@
     width: 100%;
     font-size: 22px;
   }
+  @media only screen and (min-width: 768px){
+
+    .image {
+      width: 100%;
+    }
+  
+    .logo {
+      margin-left: -30px;
+      width: 93px;
+      height: 90px;
+    }
+
+    @media only screen and (min-width: 900px){
+        .logo{
+          margin-left: -75px;
+        }
+      
+        .image {
+          height: 50%;
+        }
+      
+    }
+}

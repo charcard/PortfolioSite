@@ -2,17 +2,23 @@
 
 const homeComponent ={
     template: `
-    <header class="homeheader">
-    <h1>Charity A. Cardinal</h1>
-      <h3>Front-End Web Developer</h3>
-  </header>
-  <nav>
+    <header class="container">
+    <p class="inital">C</p>
+    <img class="image" src="images/forest.jpg" alt="nature">
+    </section>
+    <header>
+    <nav class="home-header">
     <a href="#!/home-component">About Me</a>
     <a href="#!/project-component">Projects</a>
     <a href="#!/resume-component">Resumé</a>
     <a href="https://www.linkedin.com/in/charity-cardinal/">LinkedIn</a>
     <a href="https://github.com/charcard">GitHub</a>
-  </nav>
+    </nav>
+
+    <div class="name">
+    <h1>Charity A. Cardinal</h1>
+    <h3>Front-End Web Developer</h3>
+    </div>
     <section class="intro">
       <p>Welcome!  I'm Charity.  I recently graduated from 
       the Front-End Web Development Bootcamp at Grand Circus in Detroit. 
